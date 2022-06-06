@@ -1,0 +1,3 @@
+latitud,longitud,pot,usuario,fecha,test_name,observacion,operador,rssi,marca,imsi,modelo,id
+-17.356826,-66.200071,-61,admin,2022-05-19 20:45:34.671898+00:00,Test para la prueba de funcionamiento,Test para la prueba de funcionamiento,Entel,21,ZTE CORPORATION,736023035923079,MF193A,67
+-17.356827,-66.200069,-60,admin,2022-05-19 20:45:20.681728+00:00,Test para la prueba de funcionamiento,Test para la prueba de funcionamiento,Entel,20,ZTE CORPORATION,736023035923079,MF193A,66

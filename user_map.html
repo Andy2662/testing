@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f7f291bfd6e54a2585e2f159ac8a2d09 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f7f291bfd6e54a2585e2f159ac8a2d09" ></div>
+        
+</body>
+<script>    
+    
+            var map_f7f291bfd6e54a2585e2f159ac8a2d09 = L.map(
+                "map_f7f291bfd6e54a2585e2f159ac8a2d09",
+                {
+                    center: [-17.356833, -66.20004750000001],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 18,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6d74cb106e3d485aadb5db7c9d47b60b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 18, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f7f291bfd6e54a2585e2f159ac8a2d09);
+        
+    
+            var marker_a3169581b7fd488f8af98972faae2c05 = L.marker(
+                [-17.356814, -66.20004],
+                {}
+            ).addTo(map_f7f291bfd6e54a2585e2f159ac8a2d09);
+        
+    
+        var popup_eaf478f596c84d9a9249739f952b2d9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f985ec3233fb40afabb32f9a029645fe = $(`<div id="html_f985ec3233fb40afabb32f9a029645fe" style="width: 100.0%; height: 100.0%;">latitud                              -17.356814 longitud                              -66.20004 pot                                         -60 usuario                                   admin fecha          2022-05-15 21:54:36.141931+00:00 test_name                           test-delete observacion                         test-delete operador                                  Entel rssi                                         20 marca                           ZTE CORPORATION imsi                            736023035923079 modelo                                   MF193A id                                           49 Name: 0, dtype: object</div>`)[0];
+            popup_eaf478f596c84d9a9249739f952b2d9b.setContent(html_f985ec3233fb40afabb32f9a029645fe);
+        
+
+        marker_a3169581b7fd488f8af98972faae2c05.bindPopup(popup_eaf478f596c84d9a9249739f952b2d9b)
+        ;
+
+        
+    
+    
+            var marker_284846a4820040b9aacfe94a734ee7b4 = L.marker(
+                [-17.356852, -66.200055],
+                {}
+            ).addTo(map_f7f291bfd6e54a2585e2f159ac8a2d09);
+        
+    
+        var popup_bab206058393427bb97d0db26a3a4368 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a529fe2432e346e19d49bdb632399868 = $(`<div id="html_a529fe2432e346e19d49bdb632399868" style="width: 100.0%; height: 100.0%;">latitud                              -17.356852 longitud                             -66.200055 pot                                         -58 usuario                                   admin fecha          2022-05-15 21:54:21.184994+00:00 test_name                           test-delete observacion                         test-delete operador                                  Entel rssi                                         20 marca                           ZTE CORPORATION imsi                            736023035923079 modelo                                   MF193A id                                           48 Name: 1, dtype: object</div>`)[0];
+            popup_bab206058393427bb97d0db26a3a4368.setContent(html_a529fe2432e346e19d49bdb632399868);
+        
+
+        marker_284846a4820040b9aacfe94a734ee7b4.bindPopup(popup_bab206058393427bb97d0db26a3a4368)
+        ;
+
+        
+    
+</script>
